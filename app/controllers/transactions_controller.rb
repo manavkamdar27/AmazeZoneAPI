@@ -1,6 +1,6 @@
 class TransactionsController < ApplicationController
   before_action :set_transaction, only: %i[ show update destroy ]
-
+  # This was created from scratch
   # GET /transactions
   def index
     @transactions = Transaction.all
